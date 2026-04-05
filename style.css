@@ -636,9 +636,12 @@ span {
 
 @media (max-width: 700px){ 
 
-   nav a{
+    nav a{
         padding: 10px;
+   }
 
+   nav a.active {
+    margin-top: 5rem;
    }
 }
    
