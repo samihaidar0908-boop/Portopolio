@@ -175,16 +175,16 @@
     
     <section class="contact" id="Contact">
         <h2 class="heading">Hubungi <span>Saya</span></h2>
-        <form action="https://formspree.io/f/xpqoonpn" method="post">
+        <form action="https://formspree.io/f/xpqoonpn" method="POST">
             <div class="input-box">
-                <input type="text" id="name" placeholder="Nama Lengkap" required>
-                <input type="email" id="email" placeholder="Alamat Email" required>
+                <input type="text" name="nama" id="name" placeholder="Nama Lengkap" required>
+                <input type="email" name="email" id="email" placeholder="Alamat Email" required>
             </div>
             <div class="input-box">
-                <input type="tel" id="telepon" placeholder="Nomor Telepon">
-                <input type="text" placeholder="Subjek Pesan">
+                <input type="tel" name="telepon" id="telepon" placeholder="Nomor Telepon">
+                <input type="text" name="Subjek" placeholder="Subjek Pesan">
             </div>
-            <textarea id="pesan" cols="30" rows="10" placeholder="Tulis pesanmu di sini..." required></textarea>
+            <textarea id="pesan" name="pesan" cols="30" rows="10" placeholder="Tulis pesanmu di sini..." required></textarea>
             <input type="submit" value="Kirim Pesan" class="btn">
         </form>
 
@@ -204,6 +204,5 @@
     </footer>
 
     <script src="script.js"></script>
-    <script src="fetch.js" ></script>
 </body>
 </html>
