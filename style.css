@@ -584,6 +584,27 @@ span {
     .close-btn {
         display: block;
     }
+
+     .home{
+        gap: 4rem;
+    }
+     .home{
+        flex-direction: column;
+        margin: 5rem 4rem;
+        text-align:center;
+    }
+
+    .home .home-content h3{
+        font-size: 2.5rem;
+    }
+
+    .home-content h1{
+        font-size: 5rem;
+    }
+
+    .home-image img {
+        width: 24vh;
+    }
 }
 
 @keyframes cursor{
@@ -613,27 +634,10 @@ span {
     }
 }
 
-@media (max-width: 1080px){
-    .home{
-        gap: 4rem;
-    }
-     .home{
-        flex-direction: column;
-        margin: 5rem 4rem;
-        text-align:center;
-    }
-
-    .home .home-content h3{
-        font-size: 2.5rem;
-    }
-
-    .home-content h1{
-        font-size: 5rem;
-    }
-
-    .home-image img {
-        width: 24vh;
-    }
+@media (max-width: 500px){
+   .nav a {
+        width:50%
+   }
 }
    
 
