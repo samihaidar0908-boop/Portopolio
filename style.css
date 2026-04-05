@@ -570,7 +570,7 @@ span {
         margin-left: 0;
         margin-bottom: 5rem;
         position: relative;
-        bottom: 15rem;
+        bottom: 10rem;
         background-color:transparent;
     }
 
@@ -581,6 +581,12 @@ span {
 
     .close-btn {
         display: block;
+    }
+}
+
+@media (max-width: 800px) {
+    nav a {
+        bottom: 10rem;
     }
 }
 
@@ -618,6 +624,7 @@ span {
      .home{
         flex-direction: column;
         margin: 5rem 4rem;
+        text-align:center;
     }
 
     .home .home-content h3{
@@ -630,10 +637,6 @@ span {
 
     .home-image img {
         width: 24vh;
-    }
-
-    .home-content {
-        text-align:center;
     }
 }
    
