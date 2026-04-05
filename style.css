@@ -570,7 +570,7 @@ span {
         margin-left: 0;
         margin-bottom: 5rem;
         position: relative;
-        bottom: 10rem;
+        bottom: 2rem;
         background-color:transparent;
     }
 
@@ -581,12 +581,6 @@ span {
 
     .close-btn {
         display: block;
-    }
-}
-
-@media (max-width: 800px) {
-    nav a {
-        bottom: 10rem;
     }
 }
 
