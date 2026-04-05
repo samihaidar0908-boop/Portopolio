@@ -549,7 +549,7 @@ span {
         top: 0;
         left: -100%;
         transform: none !important;
-        width: 280px;
+        width: 250px;
         height: 100%;
         background-color: #161616;
         border-right: 2px solid #b74b4b;
@@ -569,14 +569,16 @@ span {
         font-size: 1.8rem;
         margin-left: 0;
         margin-bottom: 5rem;
-        position: relative;
-        bottom: 2rem;
         background-color:transparent;
     }
 
+    nav a:hover {
+        border-bottom:none;
+    }
+
     nav a.active {
+        border-bottom:none;
         background-color: transparent;
-        
     }
 
     .close-btn {
