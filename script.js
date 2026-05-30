@@ -18,3 +18,20 @@ overlay.addEventListener('click', () => {
     navbar.classList.remove('open');
     overlay.classList.remove('active');
 });
+
+// Buat pengamat — pantau elemen yang masuk viewport
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Elemen masuk layar → tambah class reveal
+            entry.target.classList.add('reveal-section');
+        }
+    });
+}, {
+    threshold: 0.1 // trigger saat 10% elemen kelihatan
+});
+
+// Daftarkan semua elemen yang punya class hidden-section
+document.querySelectorAll('.hidden-section').forEach(el => {
+    observer.observe(el);
+});
